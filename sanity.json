@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "project": {
+    "name": "portfolio-studio"
+  },
+  "api": {
+    "projectId": "0el303dk",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    }
+  ]
+}
